@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:"Kantumruy Pro", sans-serif;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.col-1 {
+  width: 8.333333333333333%;
+}
+.col-2 {
+  width: 16.66666666666667%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33333333333333%;
+}
+.col-5 {
+  width: 41.66666666666667%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 58.33333333333333%;
+}
+.col-8 {
+  width: 66.66666666666667%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33333333333333%;
+}
+.col-11 {
+  width: 91.66666666666667%;
+}
+.col-12 {
+  width: 100%;
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+header {
+  background-color: rgb(0, 0, 65);
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .navbar .navbar-brand a {
+  color: white;
+  font-size: 18px;
+  font-weight: 800;
+  text-transform: capitalize;
+  text-decoration: none;
+}
+
+header .navbar .navbar-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+header .navbar .navbar-nav .navbar-item .navbar-link {
+  color: white;
+  font-weight: 500;
+  text-decoration: none;
+  text-transform: capitalize;
+  padding: 22px 30px;
+  display: block;
+  /* margin-right: 40px; */
+}
+
+header .navbar .group-btn .btn {
+  font-size: 18px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  padding: 6px 16px;
+  border-radius: 5px;
+  font-weight: 500;
+}
+
+header .navbar .group-btn .btn-login {
+  margin-right: 8px;
+  margin-left: 30px;
+  border: 1px solid rgba(176, 197, 236, 0.26);
+}
+
+header .navbar .group-btn .btn-login:hover {
+  border: 1px solid #054794;
+  background-color: #054794;
+}
+
+header .navbar .group-btn .btn-register {
+  background-color: #0e74e9;
+}
+
+header .navbar .group-btn .btn-register:hover {
+  background-color: #054794;
+}
+
+/* ====================== Header end ==========================*/
+
+main .hero-banner {
+  background-color: #dee1e6;
+  margin-bottom: 45px;
+}
+
+main .hero-banner .title {
+  text-align: center;
+  padding: 100px;
+}
+
+main .hero-banner .title h1 {
+  text-transform: capitalize;
+  line-height: 60px;
+}
+
+main .hero-banner .title p {
+  line-height: 26px;
+  margin-bottom: 20px;
+}
+
+main .hero-banner .title .btn-get-started a {
+  text-decoration: none;
+  text-transform: capitalize;
+  color: white;
+  background-color: #0e74e9;
+  padding: 10px 22px;
+  display: inline-block;
+  border-radius: 5px;
+  transition-duration: 0.3s;
+}
+
+main .hero-banner .title .btn-get-started a:hover {
+  background-color: #054794;
+}
+
+main .card-detail .row {
+  /* background-color: aquamarine; */
+  margin: 0 -10px;
+}
+
+main .card-detail .col-6 {
+  padding: 0 10px;
+}
+
+main .box-card .card {
+  border: 1px solid rgba(128, 128, 128, 0.185);
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+main .box-card .card .card-body span {
+  font-size: 14px;
+  color: rgb(54, 54, 54);
+}
+
+main .box-card .card .card-body .title h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  padding: 8px 0;
+}
+
+main .box-card .card .card-body .title p {
+  line-height: 22px;
+}
+
+main .box-card input {
+  width: 100%;
+  padding: 10px 10px;
+  border: 1px solid rgba(88, 88, 88, 0.151);
+  border-radius: 5px;
+  margin-bottom: 24px;
+}
+
+main .box-card .row {
+  margin: 0 -15px;
+}
+
+main .box-card .col-8,
+main .box-card .col-4 {
+  padding: 0 15px;
+}
+
+main .box-card .categories {
+  border: 1px solid rgba(128, 128, 128, 0.226);
+  border-radius: 5px;
+  padding: 12px;
+  margin-bottom: 22px;
+}
+
+main .box-card .categories h3 {
+  text-transform: capitalize;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+main .box-card .categories span {
+  display: block;
+  font-size: 15px;
+  padding-bottom: 8px;
+}
+
+main .box-card .share h3 {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 6px;
+}
+
+main .box-card .share i {
+  padding: 0 4px;
+  
+}
+
+main .box-card .share .fb i {
+  color: rgb(255, 255, 255);
+  padding: 5px 8px;
+  background-color: rgb(25, 0, 255);
+  border-radius: 100%;
+}
+main .box-card .share .yt i {
+  color: white;
+  padding: 5px 5px;
+  background-color: red;
+  border-radius: 100%;
+}
+main .box-card .share .tw i {
+  color: rgb(255, 255, 255);
+  padding: 5px 5px;
+  background-color: rgb(58, 209, 255);
+  border-radius: 100%;
+}
+
+footer{
+    background-color:rgb(0, 0, 65) ;
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 25px;
+}
